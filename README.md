@@ -1,35 +1,39 @@
-## Умови завдання:
+## Task:
 
-1. Отримувати усіх користувачів запитом з сервера та відобразити їх з пагінацією по 5 користувачів.
+1. Receive all users from the server and display them with pagination of 5 users.
 
-2. Реалізувати форму для створення користувачів.
+2. Implement a form to create users.
 
-3. Сотворити користувача відправивши дані на сервер і отриману (оновлену) відповідь відобразити в списку користувачів.
+3. Create a user by sending data to the server and display the received (updated) response in the list of users.
 
-4. Реалізувати можливість видалення та редагування користувача з відправкою даних на сервер.
+4. Implement the ability to delete and edit the user by sending data to the server.
 
-5. Отримані дані записувати в Redux.
+5. Store all data in Redux.
 
 ---
-### Стек технологій :
+
+### Technology:
+
 React, Redux, Thunk/Saga. Axios/fetch.
 
 ---
 
 ## API:
-### 1. Отримання усіх користувачів: 
-**GET** */api/users*
 
-### 2. Створення користувача:
-**POST** */api/users*
+### 1. Get users list:
 
-### 3. Редагування користувача:   
-**PUT** */api/user/:id* (id користувача, якого редагують)
+**GET** _/api/users_
 
-### 4. Видалення користувача:
-**DELETE** */api/user/20* (id користувача, якого потрібно видалити)
+### 2. Create user:
 
+**POST** _/api/users_
 
-## [Деплой:] (https://user-crud-yuskiv.netlify.app "UserCRUD on Netlify")
+### 3. Edit user:
 
-P.S. Оскільки джерело данних підтримує виключно http, для забезпечення роботи додатку слід у налаштуваннях сайту дозволити "Незахищений контент".
+**PUT** _/api/user/:id_
+
+### 4. Delete user:
+
+**DELETE** _/api/user/:id_
+
+## [Deploy](https://user-crud-yuskiv.netlify.app*)
