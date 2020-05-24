@@ -1,0 +1,7 @@
+export const FETCH_USERS_DATA = 'FETCH_USERS_DATA';
+export const FETCH_USERS_DATA_FINISH = 'FETCH_USERS_DATA_FINISH';
+
+export const CHANGE_PAGE = 'CHANGE_PAGE';
+export const CHANGE_LOCATION = 'CHANGE_LOCATION';
+
+export const SAVE_USER = 'SAVE_USER';
