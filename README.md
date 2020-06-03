@@ -36,4 +36,4 @@ React, Redux, Thunk/Saga. Axios/fetch.
 
 **DELETE** _/api/user/:id_
 
-## [Deploy](https://user-crud-yuskiv.netlify.app*)
+## [Deploy](https://user-crud-yuskiv.netlify.app/)
